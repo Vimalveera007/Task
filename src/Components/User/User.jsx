@@ -45,6 +45,7 @@ const User = () => {
       segment_name: segmentName,
       schema: schemaObj,
     });
+
   };
 
   return (
