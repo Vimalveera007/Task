@@ -1,0 +1,54 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background-color: #f4f4f4;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebar-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-box {
+    margin: 10px 0;
+    width: 250px;
+    border: 0;
+    outline: 0;
+    border: 1px solid grey;
+    height: 30px;
+  }
+  
+  .btn-add-schema,
+  .btn-save-segment {
+    margin: 10px 0;
+  }
+  .btn-save-segment{
+    border: none;
+    outline: none;
+    background-color: rgb(51, 51, 191);
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .btn-close{
+    border: none;
+    outline: none;
+    background-color: rgb(228, 37, 37);
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+  }
